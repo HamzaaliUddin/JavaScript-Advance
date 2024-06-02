@@ -1,7 +1,7 @@
 // While Loop
 
 
-// let WhileLoop = 0;
+let WhileLoop = 0;
 
     let user_num = +prompt("How Many Times?")
 
