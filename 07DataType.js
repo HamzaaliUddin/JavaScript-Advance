@@ -22,3 +22,19 @@
 // OR 
     first_name = Number(first_name);
     console.log(typeof(first_name));
+
+
+
+    let undefined_name; //undefined we can not use with const 
+    console.log(undefined_name,typeof(undefined_name));
+
+    const null_name=null;  
+    console.log(null_name,typeof(null_name));
+
+
+
+    // We can not add with different Data TYpe like integer + bigInt it is wrong
+    // let BigInt_num = BigInt(1239007199254740991);
+    //  OR
+    let BigInt_num = 1239007199254740324234254353534524991n;
+    console.log(BigInt_num,Number.MAX_SAFE_INTEGER);
