@@ -33,8 +33,8 @@
 
 
 
-    // We can not add with different Data TYpe like integer + bigInt it is wrong
-    // let BigInt_num = BigInt(1239007199254740991);
-    //  OR
+// We can not add with different Data TYpe like integer + bigInt it is wrong 
+// let BigInt_num = BigInt(1239007199254740991);
+//  OR
     let BigInt_num = 1239007199254740324234254353534524991n;
     console.log(BigInt_num,Number.MAX_SAFE_INTEGER);
