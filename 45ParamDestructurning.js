@@ -11,6 +11,9 @@ const obj ={
     // function objFunc(obj){
     //     console.log(obj.name);
     // }
+
+
+    
 // Destructruning
     function objFunc({name,age}){
         console.log(name);
