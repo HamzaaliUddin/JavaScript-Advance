@@ -38,3 +38,34 @@ const newMapArray=items.map((item,index)=>{
 })
 console.log(items)
 console.log(newMapArray)
+
+
+// Filter Method
+
+
+const array = [
+    {name:"Hamza",age:21,hobbies:'coding',userId:1},
+    {name:"ali",age:21,hobbies:'coding',userId:2},
+    {name:"Hussain",age:21,hobbies:'coding',userId:3},
+    {name:"abbas",age:21,hobbies:'cricket',userId:4},
+    {name:"komail",age:21,hobbies:'football',userId:5},
+];
+
+const newArrayFilter=array.filter((id)=>{
+    return id.userId === 4
+})
+newArrayFilter.map((item)=>{
+    console.log(item.hobbies)
+});
+
+
+const arrayReduce =[
+    {name:"Hamza",age:21,hobbies:'coding',price:115},
+    {name:"abbas",age:21,hobbies:'cricket',price:4749},
+    {name:"komail",age:21,hobbies:'football',price:524},
+]
+
+const reducePrice =arrayReduce.reduce((accu,currentValue)=>{
+    return accu + currentValue.price
+},0)
+console.log(`total = ${reducePrice}`)
