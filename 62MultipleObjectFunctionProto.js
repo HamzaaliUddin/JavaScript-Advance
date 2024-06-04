@@ -1,5 +1,5 @@
 // Mutliple Object using function
-
+// function use like object
 
 const userMethod ={
     about: function(){
