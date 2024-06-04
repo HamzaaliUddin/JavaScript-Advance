@@ -11,5 +11,8 @@ const myArray = [1,2,3,4,5,6,62,3,32,6,1,32,7,43].sort((a,b)=>{
 for(let arr of myArray){
     newSet.add(arr);
 }
+if(newSet.has(3)){
+    console.log('three')
+}
 
 console.log(newSet)
